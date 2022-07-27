@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     font-size: 16px;
     background-color: #F8F0E3;
+    font-family: 'Roboto Condensed', sans-serif;
   }
   
   *, *:before, *:after {
@@ -47,4 +48,10 @@ html {
     height: max-content;
     padding: 1.5rem 4rem;
     border-radius: 30%;
+    font-size: 1.5rem;
+  }
+
+  #startbutton:hover{
+    background-color: blue;
+    cursor: pointer;
   }
