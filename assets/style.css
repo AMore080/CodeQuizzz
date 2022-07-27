@@ -55,3 +55,14 @@ html {
     background-color: blue;
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 600px) {
+    .header{
+      font-size: 3rem;
+    }
+    #startbutton{
+      font-size: 1rem;
+      padding: 1rem 3rem;
+    }
+  }
+  
