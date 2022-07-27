@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
+    background-color: #F8F0E3;
   }
   
   *, *:before, *:after {
@@ -20,4 +21,30 @@ html {
   img {
     max-width: 100%;
     height: auto;
+  }
+
+header{
+    display: flex;
+}
+
+  .header{
+    font-size: 4rem;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 30%;
+    font-weight: bolder;
+  }
+
+  #startbutton{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 45%;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
   }
