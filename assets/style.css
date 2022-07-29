@@ -24,7 +24,7 @@ html {
     height: auto;
   }
 
-  .containerHead{
+  #containerHead{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@ html {
   } 
 
 
-  .questionContainer{
+  #questionContainer{
     display: flex;
     height: 40vh;
     width: 40vw;
@@ -87,7 +87,7 @@ html {
   }
 
   .hide{
-    display: none;
+    display: none !important;
   }
 
   @media only screen and (max-width: 600px) {
