@@ -42,25 +42,29 @@ html {
 
 
   .questionContainer{
-    position: absolute;
-    width: 500px;
+    display: flex;
+    height: 40vh;
+    width: 40vw;
+    margin: 30vh auto;
+    align-self: center;
     background-color: #4682B4;
-    column-count: 2;
     padding: 3rem;
     border-radius: 10%;
     box-shadow: 0 0 10px 1px;
-    left: 36%;
-    top: 35%;
   }
 
   .answerBtnGrid{
-    display: grid;
+    display: inherit;
+    flex-direction: column;
     gap: 10px;
-    grid-template-columns: repeat(2,auto);
   }
 
   .btn{
+    display: inherit;
     font-size: 2rem;
+    background-color: #FF8000;
+    line-height: 3rem;
+    width: 17rem;
   }
 
   #startbutton{
