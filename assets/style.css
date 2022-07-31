@@ -42,8 +42,11 @@ html {
 
   #questions{
     display: flex;
+    width: 40%;
+    flex-wrap: wrap;
     position: relative;
     padding-right: 8rem;
+    font-size: 2rem;
   }
 
 
@@ -72,8 +75,10 @@ html {
     font-size: 2rem;
     background-color: #FF8000;
     line-height: 3rem;
-    width: 80%;
-    margin-left: 7rem;
+    width: 70%;
+    height: 20%;
+    margin-left: 1rem;
+    cursor: pointer;
   }
 
   #startbutton{
