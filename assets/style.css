@@ -129,14 +129,15 @@ html {
 
     #questions{
       display: flex;
-      position: absolute;
-      padding-right: 8rem;
+      flex-wrap: wrap;
+      position: relative;
+      padding-right: 2rem;
     }
   
 
     #questionContainer{
       display: flex;
-      height: 60vh;
+      height: 100vh;
       width: auto;
       margin: 20vh auto;
       background-color: #4682B4;
@@ -176,9 +177,10 @@ html {
 
   #questions{
     display: flex;
+    flex-wrap: wrap;
     position: relative;
-    font-size: 10rem;
-    width: max-content;
+    font-size: 7rem;
+    width: 40%;
     text-align: start;
   }
   }

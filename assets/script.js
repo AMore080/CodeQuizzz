@@ -1,4 +1,4 @@
-let secondsLeft = 10;
+let secondsLeft = 1;
 let start = document.getElementById("startbutton");
 let homePage = document.getElementById('containerHead');
 let questionsCont = document.getElementById('questionContainer');
@@ -21,23 +21,26 @@ function timer(){
     document.getElementById('timer').innerHTML = "Timer: " + secondsLeft;
     secondsLeft--;
     if (secondsLeft < 0){
-        alert('YOU LOSE');     
+        nextQuestion()
     } else {
         setTimeout(timer, 1000);
     }
 }
 
 function showQuestions(){
-    questionString.innerHTML = questionsArr.question
+    questionString.innerHTML = questionsArr.question[0]
 }
+
+function nextQuestion(){
+    for(let i = 0; i < questionsArr.question.length; i++){
+        questionString.innerHTML = questionsArr.question[i]
+    }
+    }
 
 
     const questionsArr = 
         {
-        question: "Commonly used Data types do NOT include?", 
-        answers: [
-            {text:"</>"}
-        ]
-    }
+        question: ["Commonly used Data types do NOT include?", "What is our DOM?"]
+        }
 
     window.onload = showQuestions;
