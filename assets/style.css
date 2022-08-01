@@ -104,6 +104,12 @@ html {
     display: none !important;
   }
 
+  #timer{
+    font-size: 3rem;
+    position: absolute;
+    top: 10%;
+  }
+
   @media only screen and (max-width: 768px) {
     .header{
       font-size: 3rem;
@@ -175,5 +181,4 @@ html {
     width: max-content;
     text-align: start;
   }
-
   }
